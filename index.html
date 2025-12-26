@@ -1,218 +1,254 @@
-<!DOCTYPE HTML>
-<!--
-	Editorial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Prasad Kamath</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Prasad Madhava Kamath | Signal Processing & Applied ML</title>
+  <style>
+    :root{
+      --bg:#0b0f19;
+      --card:#111827;
+      --muted:#94a3b8;
+      --text:#e5e7eb;
+      --accent:#38bdf8;
+      --line:#1f2937;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      background: radial-gradient(1200px 800px at 20% 0%, #0f172a 0%, var(--bg) 55%, #070a12 100%);
+      color:var(--text);
+      line-height:1.55;
+    }
+    a{color:var(--accent); text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:980px; margin:0 auto; padding:40px 20px 64px}
+    header{
+      display:flex; flex-wrap:wrap; gap:16px; justify-content:space-between; align-items:flex-end;
+      border-bottom:1px solid var(--line); padding-bottom:18px; margin-bottom:22px;
+    }
+    .name{font-size:32px; font-weight:750; letter-spacing:-0.02em; margin:0}
+    .role{margin:6px 0 0; color:var(--muted); font-size:15px}
+    .meta{
+      display:flex; flex-wrap:wrap; gap:10px 14px; justify-content:flex-end;
+      color:var(--muted); font-size:14px;
+    }
+    .chip{
+      border:1px solid var(--line); background:rgba(17,24,39,0.65);
+      padding:6px 10px; border-radius:999px;
+    }
+    .grid{
+      display:grid; grid-template-columns: 1.2fr 0.8fr; gap:18px;
+    }
+    @media (max-width: 860px){
+      .grid{grid-template-columns:1fr}
+      .meta{justify-content:flex-start}
+    }
+    .card{
+      background:rgba(17,24,39,0.72);
+      border:1px solid var(--line);
+      border-radius:16px;
+      padding:18px 18px 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+    }
+    h2{
+      font-size:14px; text-transform:uppercase; letter-spacing:0.12em;
+      margin:0 0 10px; color:#cbd5e1;
+    }
+    h3{
+      margin:0; font-size:16px; letter-spacing:-0.01em;
+    }
+    .sub{
+      margin:2px 0 0; color:var(--muted); font-size:14px;
+    }
+    ul{margin:10px 0 0 18px; padding:0}
+    li{margin:6px 0}
+    .k{color:#cbd5e1}
+    .muted{color:var(--muted)}
+    .row{display:flex; gap:14px; flex-wrap:wrap; margin-top:10px}
+    .tag{
+      border:1px solid var(--line);
+      background:rgba(2,6,23,0.25);
+      padding:6px 10px;
+      border-radius:999px;
+      color:#cbd5e1;
+      font-size:13px;
+    }
+    .twoCol{
+      display:grid; grid-template-columns:1fr 1fr; gap:14px;
+    }
+    @media (max-width: 640px){
+      .twoCol{grid-template-columns:1fr}
+    }
+    .foot{
+      margin-top:18px; color:var(--muted); font-size:12.5px;
+      border-top:1px solid var(--line); padding-top:14px;
+    }
+    .tight li{margin:4px 0}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <h1 class="name">Prasad Madhava Kamath</h1>
+        <p class="role">Senior Engineer, DSP (Audio) • Applied ML / Applied Research</p>
+      </div>
+      <div class="meta">
+        <span class="chip">Chicago, USA</span>
+        <span class="chip"><a href="mailto:prsdkamath7@gmail.com">prsdkamath7@gmail.com</a></span>
+        <span class="chip"><a href="https://www.linkedin.com/in/prasad-m-kamath-394965102/" target="_blank" rel="noreferrer">LinkedIn</a></span>
+        <span class="chip"><a href="https://github.com/pkamath7" target="_blank" rel="noreferrer">GitHub</a></span>
+      </div>
+    </header>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+    <div class="grid">
+      <section class="card">
+        <h2>Summary</h2>
+        <p style="margin:0">
+          DSP engineer with 7+ years of experience designing signal processing algorithms, audio frameworks, and
+          production-grade software for commercial audio products. Strong foundation in signal processing, machine learning,
+          and neural networks with hands-on experience designing research prototypes, and translating them into deployable, real-world audio products.
+        </p>
 
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
+        <div class="row" aria-label="focus tags">
+          <span class="tag">Applied Research → Product</span>
+          <span class="tag">Embedded / Real-time DSP</span>
+          <span class="tag">Audio ML</span>
+        </div>
+      </section>
 
-							<!-- Header -->
-								<header id="header">
-									<ul class="icons">
-										<li><a href="https://www.linkedin.com/in/prasad-m-kamath-394965102/" class="icon brands fa-linkedin" target="blank"><span class="label">Medium</span></a></li>
-									</ul>
-								</header>
+      <aside class="card">
+        <h2>Core Skills</h2>
+        <div class="twoCol">
+          <div>
+            <div class="k">Languages</div>
+            <ul class="tight">
+              <li>C / C++</li>
+              <li>Python</li>
+              <li>C#</li>
+              <li>Assembly (DSP)</li>
+            </ul>
+          </div>
+          <div>
+            <div class="k">Tools & Platforms</div>
+            <ul class="tight">
+              <li>PyTorch</li>
+              <li>MATLAB</li>
+              <li>AWS SageMaker</li>
+              <li>Git / SVN</li>
+              <li>Visual Studio / VS Code</li>
+              <li>Reaper</li>
+            </ul>
+          </div>
+        </div>
+      </aside>
 
-							<!-- Banner -->
-								<section id="banner">
-									<div class="content">
-										<header>
-											<h1>Hi, I’m </br>Prasad Kamath</h1>
-										</header>
+      <section class="card" style="grid-column:1 / -1">
+        <h2>Professional Experience</h2>
 
+        <div style="margin-top:6px">
+          <h3>Shure Incorporated — Senior Engineer, DSP</h3>
+          <div class="sub">Chicago, USA • Apr 2023 – Present</div>
+          <ul>
+            <li>Led DSP development of <b>MV7i microphone</b>, the first with an integrated audio interface.</li>
+            <li>Designed and implemented <b>low-compute, low-latency automatic audio equalization</b> algorithms suitable for embedded constraints.</li>
+            <li>Researched and proposed <b>audio codec optimization</b> approaches to improve efficiency and quality under bandwidth/compute limits.</li>
+            <li>Developed an <b>ML-based objective perceptual quality characterization</b> method to reduce evaluation listening time while maintaining decision reliability.</li>
+          </ul>
+        </div>
 
-										<p style="text-align: justify;">I'm a graduate student in the department of Electrical and Computer Engineering at the University of California San Diego. I previously worked as a Software Engineer in the Infotainment Processing and Connectivity group at Analog Devices Inc.</p>
+        <div style="margin-top:14px">
+          <h3>Shure Incorporated — DSP Engineering Intern</h3>
+          <div class="sub">Chicago, USA • Jun 2022 – Sept 2022</div>
+          <ul>
+            <li>Developed a <b>hybrid neural + adaptive filtering</b> approach for nonlinear residual echo suppression.</li>
+            <li>Prototyped room characterization algorithms in Python/MATLAB and <b>translated to optimized C/C++</b> for target hardware.</li>
+          </ul>
+        </div>
 
-										<p style="text-align: justify;">
-											I'm currently a DSP Engineering Intern at Shure Incorporated in the Product Development Group. I previously served as a graduate Technical Assistant for the course ECE161B Digital Signal Processing I, taught by Professor Truong Nguyen and recieved the ECE Best TA Award 2022 for the same. I contribute to research in the THE Lab, UC San Diego (Open Speech Platform group) under the guidance of Dr. Harinath Garudadri. My research interests are Machine Learning and Signal Processing(Audio and Speech Processing). 
-										</p>
-										<p style="text-align: justify;"> I'm also a New Media Design enthusiast and was fortunate enough to have an opportunity to learn about Industrial and Product Design from Professor Achuta Rao, former Director of National Institute of Design, Bangalore R&D Campus. I cracked the National Institute of Design, MDes Design Aptitute Test in 2019, and secured an All India Rank 1 in the New Media Design stream.</p>
-										<ul class="actions">
-											<li><a href="https://drive.google.com/file/d/1S6y5PQUvjiIeWzJluTcQayVzeHfCxpZ_/view?usp=sharing" class="button big">Resume</a></li>
-										</ul>
+        <div style="margin-top:14px">
+          <h3>Analog Devices India Pvt Ltd — Engineer-2, Infotainment Processing & Connectivity</h3>
+          <div class="sub">India • Aug 2016 – Aug 2021</div>
+          <ul>
+            <li>Developed signal processing libraries for floating and fixed-point DSPs in <b>C and DSP assembly</b> (SHARC, ADAU14xx).</li>
+            <li>Designed and implemented algorithms & systems for <b>Noise Reduction, ANC, and AEC</b> in real-time embedded environments.</li>
+            <li>Designed a <b>multi-rate feedback canceller</b> reducing resource consumption by ~40%, enabling deployment on lower-cost DSPs.</li>
+            <li>Integrated audio frameworks and peripherals for embedded audio systems, supporting robust product deployment.</li>
+          </ul>
+        </div>
+      </section>
 
-									</div>
-										<span class="image object">
-											<img src="images/dp.jpg" style="height:75%" style="width: 75%;" alt="" />
-										</span> 
-	
-									
+      <section class="card">
+        <h2>Academic Projects</h2>
 
-								</section>
+        <div>
+          <h3>Quantifying Time–Frequency Variations in MCW Sets for Hearing Aid Applications</h3>
+          <div class="sub">UC San Diego • Jan 2023</div>
+          <ul>
+			<li>Advised by Dr. Harinath Garudadri, Dr. Bhaskar Rao
+            <li>Conducted research at the intersection of machine learning, signal processing, and speech phonetics to develop algorithms for hearing-aid self-fitting.</li>
+            <li>Developed phonetic contrast functions and methods for distinguishing minimal word pairs in hearing-aid signal processing.</li>
+          </ul>
+        </div>
 
-							<!-- Section 
-								<section>
-									<header class="major">
-										<h2>Erat lacinia</h2>
-									</header>
-									<div class="features">
-										<article>
-											<span class="icon hat"></span>
-											<div class="content">
-												<h3>Portitor ullamcorper</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-paper-plane"></span>
-											<div class="content">
-												<h3>Sapien veroeros</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-rocket"></span>
-											<div class="content">
-												<h3>Quam lorem ipsum</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon solid fa-signal"></span>
-											<div class="content">
-												<h3>Sed magna finibus</h3>
-												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											</div>
-										</article>
-									</div>
-								</section>
+        <div style="margin-top:12px">
+          <h3>Echo Cancellation and Residual Echo Suppression: A Hybrid Approach</h3>
+          <div class="sub">Jun 2022</div>
+          <ul>
+            <li>Developed a hybrid scheme for non-linear echo cancellation using a shallow Neural Network (UNet, LSTM) as a post-filter.</li>
+            <li>Achieved mean ERLE of 38 dB and mean signal-to-distortion ratio of 13 dB during double talk.</li>
+          </ul>
+        </div>
 
-							-->
-								<section>
-									<header class="major">
-										<h2>Learn more about what I do</h2>
-									</header>
-									<div class="posts">
-										<article>
-											<a href="#" class="image"><img src="images/projects.jpg" alt="" /></a>
-											<h3>Tech Projects</h3>
-											<p>A curated collection of technical projects I have worked on in the past</p>
-											<ul class="actions">
-												<li><a href="https://github.com/pkamath7" target="blank" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/design.jpg" alt="" /></a>
-											<h3>Design</h3>
-											<p>A curated collection of projects involving product and new media design that I have contributed to</p>
-											<ul class="actions">
-												<li><a href="DP1.html" target="blank"  class="button">More</a></li>
-											</ul>
-										</article>
-									</div> 
-								</section>
+        <div style="margin-top:12px">
+          <h3>Prototypical Few-Shot Learning for Image Segmentation</h3>
+          <div class="sub">Jun 2022</div>
+          <ul>
+            <li>Implemented prototypical network with metric learning for few-shot image segmentation on PASCAL and COCO.</li>
+            <li>Performed ablation study and integrated architectural changes using DeepLabv3 to improve mean IoU by 20% versus baseline.</li>
+          </ul>
+        </div>
+      </section>
 
-						</div>
-					</div>
-				
+      <aside class="card">
+        <h2>Education</h2>
+        <div>
+          <h3>University of California San Diego</h3>
+          <div class="sub">M.S., Electrical Engineering (Signal & Image Processing) • Sep 2021 – Mar 2023</div>
+          <div class="muted">GPA: 3.69 / 4.0</div>
+          <div class="k" style="margin-top:10px">Relevant Coursework</div>
+          <ul class="tight">
+            <li>Statistical Signal Processing</li>
+            <li>Adaptive Signal Processing</li>
+            <li>Deep Learning for Vision</li>
+            <li>Filter Banks & Wavelets</li>
+            <li>Probabilistic Learning, Parameter Estimation</li>
+          </ul>
+		  <div class="k" style="margin-top:10px">Teaching</div>
+          <ul class="tight">
+            <li>ECE 161B- Digital Signal Processing (Awarded Best TA, 2022),Prof. Truong Nguyen</li>
+			<li>CSE-141 - Intro to Computer Architecture, Prof. Leo Porter</li> 
+          </ul>
+        </div>
 
-				<!-- Sidebar -->
-					<div id="sidebar">
-						<div class="inner">
+        <div style="margin-top:14px">
+          <h3>BMS College of Engineering, Bangalore</h3>
+          <div class="sub">B.E., Electronics & Communication • Sep 2012 – Aug 2016</div>
+          <div class="muted">GPA: 9.66 / 10</div>
+        </div>
+      </aside>
 
-							<!-- Search -->
-								<section id="search" class="alt">
-									<form method="post" action="#">
-										<input type="text" name="query" id="query" placeholder="Search" />
-									</form>
-								</section>
-
-							<!-- Menu -->
-								<nav id="menu">
-									<header class="major">
-										<h2>Menu</h2>
-									</header>
-									<ul>
-										<li><a href="index.html">Homepage</a></li>
-										<li><a href="https://drive.google.com/file/d/1S6y5PQUvjiIeWzJluTcQayVzeHfCxpZ_/view?usp=sharing">Resume</a></li>
-										<li><a href="https://github.com/pkamath7/" target="blank">Projects</a></li>
-										<li><span class="opener">Design</span>
-										<ul>
-											<li><span class="opener">Product Design</span>
-											<ul>
-												<li><a href="PD1.html" target="_blank">Contactless Contact</a></li>
-												<li><a href="PD3.html" target="_blank">ImmunKnighty</a></li>
-											</ul>
-											</li>
-											<li>
-											<span class="opener">New Media Design</span>
-											<ul>
-												<li><a href="DP1.html" target="_blank">Out of the Box</a></li>
-												<li><a href="DP2.html" target="_blank">Smart Glove</a></li>
-												<li><a href="DP3.html" target="_blank">Looking Glass</a></li>
-											</ul>
-											</li>
-										</ul>
-										</li>
-										<li><a href="https://www.instagram.com/prasad_kamath/?hl=en" target="blank">Art & Photography</a></li>
-									</ul>
-								</nav>
-
-							<!-- Section 
-								<section>
-									<header class="major">
-										<h2>Ante interdum</h2>
-									</header>
-									<div class="mini-posts">
-										<article>
-											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-										</article>
-									</div>
-									<ul class="actions">
-										<li><a href="#" class="button">More</a></li>
-									</ul>
-								</section>
-
-							 Section -->
-								<section>
-									<header class="major">
-										<h2>Contact</h2>
-									</header>
-									<ul class="contact">
-										<li class="icon solid fa-envelope"><a href="#">pkamath@ucsd.edu</a></li>
-										</li>
-									</ul>
-								</section>
-
-							<!-- Footer -->
-								<footer id="footer">
-									<p class="copyright">&copy; Untitled. All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-								</footer>
-
-						</div>
-					</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+      <section class="card" style="grid-column:1 / -1">
+        <h2>Publications & Presentations</h2>
+        <ul>
+          <li><i>A phonetic contrast function to improve sound processing in hearing aids</i>, J. Acoust. Soc. Am. 153, A158 (2023)</li>
+          <li><i>Broad phonetic feature classifier for real-time hearing aid processing</i>, J. Acoust. Soc. Am. 153, A156 (2023)</li>
+          <li><i>Design and Implementation of LST Based Dynamic Scheduler on Real Time OS</i>, IJEECSE - NEWS 2</li>
+        </ul>
+      </section>
+    </div>
+  </div>
+</body>
 </html>
